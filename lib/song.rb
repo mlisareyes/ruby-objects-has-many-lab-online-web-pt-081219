@@ -15,4 +15,7 @@ class Song
   def artist_name
     self.artist.name
   end
+  
+  def self.post_count
+    self.all.count
 end
