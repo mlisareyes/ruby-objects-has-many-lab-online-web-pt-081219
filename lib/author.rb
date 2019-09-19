@@ -3,15 +3,13 @@ class Author
   
   def initialize(name)
     @name = name
-    @posts = []
   end
   
   def add_post(post)
-    @posts << post
-    post.author.self
+    song.author = self
   end
-  
+ 
   def posts
-    @posts
+    Post.all.select {|post| post.author == self}
   end
 end
