@@ -6,4 +6,7 @@ class Author
     @name = name
     @posts = posts
   end
+  
+  def add_post
+  end
 end
