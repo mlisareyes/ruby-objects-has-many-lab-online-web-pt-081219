@@ -1,6 +1,6 @@
 class Song
   
-  def inintialize(name)
+  def initialize(name)
     @name = name
   end
 end
