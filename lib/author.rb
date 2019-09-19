@@ -8,6 +8,6 @@ class Author
   end
   
   def add_post(post)
-    @post <<
+    @posts << posts
   end
 end
