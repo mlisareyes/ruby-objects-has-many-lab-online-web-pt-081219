@@ -9,4 +9,8 @@ class Author
   def add_post(post)
     @posts << posts
   end
+  
+  def posts
+    @posts
+  end
 end
