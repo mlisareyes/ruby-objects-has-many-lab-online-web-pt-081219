@@ -18,4 +18,5 @@ class Song
   
   def self.post_count
     self.all.count
+  end
 end
